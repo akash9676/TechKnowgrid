@@ -21,5 +21,8 @@
     "autoprefixer": "^10.4.0",
     "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "@themesberg/flowbite": "^1.2.0"
   }
 }

@@ -1,6 +1,7 @@
 module.exports = {
   purge: [
-    './public/**/*.html'
+    './public/**/*.html',
+    require('@themesberg/flowbite/plugin')
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
