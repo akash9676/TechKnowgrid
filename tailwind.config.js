@@ -1,7 +1,5 @@
 module.exports = {
 	content: ["./src/**/*.{html,js}"],
-	purge: ["./public/**/*.html"],
-	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			color: {
@@ -22,9 +20,6 @@ module.exports = {
 				200: "2",
 			},
 		},
-	},
-	variants: {
-		extend: {},
 	},
 	plugins: [],
 };
