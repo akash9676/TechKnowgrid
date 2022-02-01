@@ -963,10 +963,6 @@ form textarea::placeholder {
   width: 2.5rem;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-16 {
   width: 4rem;
 }
@@ -1256,6 +1252,10 @@ form textarea::placeholder {
   padding-top: 1.5rem;
 }
 
+.pt-96 {
+  padding-top: 24rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1297,6 +1297,11 @@ form textarea::placeholder {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -1541,10 +1546,6 @@ form textarea::placeholder {
 @media (min-width: 640px) {
   .sm\:h-screen {
     height: 100vh;
-  }
-
-  .sm\:bg-contain {
-    background-size: contain;
   }
 
   .sm\:px-8 {
